@@ -1,0 +1,6 @@
+package com.mycompany.ldsmspring2023
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
