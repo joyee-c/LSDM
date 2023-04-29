@@ -1,1 +1,6 @@
+mkdir -p ~/data/yt8m/frame;
+cd ~/data/yt8m/frame
 
+curl data.yt8m.org/download.py | partition=2/frame/train mirror=us python
+curl data.yt8m.org/download.py | partition=2/frame/validate mirror=us python
+curl data.yt8m.org/download.py | partition=2/frame/test mirror=us python
