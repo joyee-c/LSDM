@@ -1,3 +1,4 @@
+<img src="Images/TidyMe.png" height="200px" align="right"/>
 # LSDM: TidyMe
 
 ## The Problem
@@ -42,8 +43,8 @@ We used [Flutterflow](https://flutterflow.io) to build our interactive UI which 
 1. Training/testing data (3.15TB)
  - We had 3.15TB worth of data to store and work with therefore we chose google cloud for this as they offered 300 worth of initial credit to use upon creating an account which was more than enough. Data was stored in buckets and within those buckets they were seperated by folders into image, video and text.
 2. Database for application
- - We used FireBase which integrates very well with Flutterflow, is robust and also provided security features to ensure secure login for all users of the application.
- - We have three databases:
+ 1. We used FireBase which integrates very well with Flutterflow, is robust and also provided security features to ensure secure login for all users of the application.
+ 2. We have three databases:
   * Users: Holds all user information
   * Categories: Contains a list of categories of files that specific users have already classified, we use this for folder generation
   * File Data: Hold all file data for user files with key information that is the category which it falls under as well as annotation which is used for searching.
