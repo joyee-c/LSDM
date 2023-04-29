@@ -1,9 +1,9 @@
 <h1 align="center">
  <br>
- <img src="Images/TidyMe.png" height="200px" align="right"/>
+ <img src="Images/TidyMe.png"/>
  </br>
 </h1>
-# LSDM: TidyMe
+## LSDM: TidyMe
 
 ## The Problem
 The modern world is data driven and the data that we collect in a day is huge. Over time, it gets tedious to manage such large and varied data manually. This often creates a lot of cluttered data, which requires a great manual effort to organize and categorize by the data owner. In this project we are addressing this everyday concern by creating a cloud storage application that helps users to efficiently organize notes (text, PDF), videos and photos by using cutting-edge Artificial Intelligence to classify contents into meaningful categories for the user. 
@@ -49,9 +49,9 @@ We used [Flutterflow](https://flutterflow.io) to build our interactive UI which 
 2. Database for application
  * We used FireBase which integrates very well with Flutterflow, is robust and also provided security features to ensure secure login for all users of the application.
  * We have three databases:
-  * Users: Holds all user information
-  * Categories: Contains a list of categories of files that specific users have already classified, we use this for folder generation
-  * File Data: Hold all file data for user files with key information that is the category which it falls under as well as annotation which is used for searching.
+   * Users: Holds all user information
+   * Categories: Contains a list of categories of files that specific users have already classified, we use this for folder generation
+   * File Data: Hold all file data for user files with key information that is the category which it falls under as well as annotation which is used for searching.
 
 ## TidyMe App
 After all the groundwork, TidyMe app now allows users to securely login and upload video, text or images for classification annotation as well as saving.
