@@ -1,1 +1,4 @@
+export KAGGLE_USERNAME=*insert username*
+export KAGGLE_KEY=*insert key*
 
+kaggle datasets download -s images-dataset/data/
