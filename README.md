@@ -37,7 +37,7 @@ Once data was collected, we were able to use Google's pre-trained models to test
 2. [Image](https://cloud.google.com/ai-platform/training/docs/algorithms/image-classification-start) classification
 3. [Text](https://cloud.google.com/natural-language/docs/classify-text-tutorial) classification
 
-Google's classification is very reliable and upon testing on our data found that it tracked an accuracy of above 60% for all that ois video, image and text.
+Google's classification is very reliable and upon testing on our data found that it tracked an accuracy of above 60% for all that is video, image and text.
 
 ### Building Application
 We used [Flutterflow](https://flutterflow.io) to build our interactive UI which is convenient since it works well with google cloud features including [Firebase](https://firebase.google.com) which will be discussed later.
