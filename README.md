@@ -54,3 +54,4 @@ We used [Flutterflow](https://flutterflow.io) to build our interactive UI which 
 
 ## TidyMe App
 After all the groundwork, TidyMe app now allows users to securely login and upload video, text or images for classification annotation as well as saving.
+<img src="Wireframes/FinalFrame.png"/>
