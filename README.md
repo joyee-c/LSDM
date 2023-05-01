@@ -23,7 +23,7 @@ The modern world is data driven and the data that we collect in a day is huge. O
   * Horses
   * Human
 3. For text we used BBC [dataset](http://mlg.ucd.ie/datasets/bbc.html) which consists of:
-  * 2225 documents from BBC corresponsing to stories in 5 topiucs from 2004-2005
+  * 2225 documents from BBC corresponsing to stories in 5 topics from 2004-2005
   * 5 class labels
     * Business
     * Entertainment
