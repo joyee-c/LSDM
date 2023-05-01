@@ -30,6 +30,10 @@ The modern world is data driven and the data that we collect in a day is huge. O
     * Politics
     * Sports
     * Tech
+4. Caltech 256 Image [dataset](http://www.vision.caltech.edu/Image_Datasets/Caltech256/)
+ * 30K+ images
+ * 257 classes
+5. Human Action short videos [Dataset](https://www.crcv.ucf.edu/data/UCF101.php), UCF Center of Research in Computer Vision.
 
 ### Classification
 Once data was collected, we were able to use Google's pre-trained models to test classification & annotation on our datasets which we stored in google cloud buckets.
