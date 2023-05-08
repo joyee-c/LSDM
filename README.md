@@ -80,7 +80,7 @@ flutter config --enable-windows-desktop;
 ```Linux 
 flutter config --enable-linux-desktop;
 ```
-7.	To test 
+7.	To test run
 ```flutter devices```
 8.	To run:
  * Open the Android Studio.
