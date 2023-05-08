@@ -72,13 +72,13 @@ flutter pub run flutter_launcher_icons:main
 ```
 6.	To enable desktop support on your terminal run:
 ```MacOS
-flutter config --enable-macos-desktop
+flutter config --enable-macos-desktop;
 ```
 ```Windows
-flutter config --enable-windows-desktop
+flutter config --enable-windows-desktop;
 ```
 ```Linux 
-flutter config --enable-linux-desktop
+flutter config --enable-linux-desktop;
 ```
 7.	To test 
 ```flutter devices```
