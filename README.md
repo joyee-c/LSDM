@@ -83,9 +83,9 @@ flutter config --enable-linux-desktop;
 7.	To test 
 ```flutter devices```
 8.	To run:
- a.	Open the Android Studio.
- b.	Select the Flutter Device Selection dropdown (in the Toolbar) and choose your operating system name (e.g. macOS, windows, linux).
- c.	 Click on the Run button (looks like a green color play button).
+ * Open the Android Studio.
+ * Select the Flutter Device Selection dropdown (in the Toolbar) and choose your operating system name (e.g. macOS, windows, linux).
+ * Click on the Run button (looks like a green color play button).
 
 
 ## TidyMe App
