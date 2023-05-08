@@ -56,6 +56,38 @@ We used [Flutterflow](https://flutterflow.io) to build our interactive UI which 
    * Categories: Contains a list of categories of files that specific users have already classified, we use this for folder generation
    * File Data: Hold all file data for user files with key information that is the category which it falls under as well as annotation which is used for searching.
 
+### Testing Locally
+
+1.	Install and IDE
+ * Android Studio IDE and follow this to setup
+Setup flutter in your local machine
+2. Setup [flutter](https://docs.flutter.dev/get-started/install) in your local machine
+3.	Follow [setup](https://docs.flutter.dev/platform-integration/desktop#requirements) depending on your OS
+4.	Download the files in the Website folder of this repository
+5.	In your editor of choice, navigate to the folder where your downloads are and run these:
+```
+flutter pub get
+flutter packages pub run build_runner build --delete-conflicting-outputs
+flutter pub run flutter_launcher_icons:main
+```
+6.	To enable desktop support on your terminal run:
+```MacOS
+flutter config --enable-macos-desktop
+```
+```Windows
+flutter config --enable-windows-desktop
+```
+```Linux 
+flutter config --enable-linux-desktop
+```
+7.	To test 
+```flutter devices```
+8.	To run:
+ a.	Open the Android Studio.
+ b.	Select the Flutter Device Selection dropdown (in the Toolbar) and choose your operating system name (e.g. macOS, windows, linux).
+ c.	 Click on the Run button (looks like a green color play button).
+
+
 ## TidyMe App
 After all the groundwork, TidyMe app now allows users to securely login and upload video, text or images for classification annotation as well as saving.
 <img src="Wireframes/FinalFrame.png"/>
