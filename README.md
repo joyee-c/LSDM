@@ -58,8 +58,8 @@ We used [Flutterflow](https://flutterflow.io) to build our interactive UI which 
 
 ### Testing Locally
 
-1.	Install and IDE
- * Android Studio IDE and follow this to setup
+1.	Install an IDE
+ * Android Studio IDE and follow [this](https://docs.flutter.dev/get-started/editor?tab=androidstudio) to setup
 Setup flutter in your local machine
 2. Setup [flutter](https://docs.flutter.dev/get-started/install) in your local machine
 3.	Follow [setup](https://docs.flutter.dev/platform-integration/desktop#requirements) depending on your OS
